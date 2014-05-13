@@ -1,0 +1,39 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::
+::												::
+::				   STYLESHEET BY				::
+::			PROYECTODW CREATIVO SA DE CV		::
+::			     www.proyectodw.com				::
+::												::
+::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+body{padding:0 0 10% 0;}
+
+/* DESTINOS */
+
+	.Destinos{
+		color:rgb(255,255,255);
+		text-align:left;
+		margin:0px auto;
+		width:70%;
+		font-size:18px;
+		clear:both;
+	}
+	.Destinos h2{
+		font-size:24px;
+		margin-bottom:10px;
+	}
+	.Destinos li{
+		list-style:none;
+		float:left;
+		width:auto;
+		margin:0 5px;
+		padding:7px 10px;
+		text-align:center;
+		background:rgb(104,185,205);
+		border-radius:10px;
+		margin:5px;
+	}
+
+#Cancun{
+	
+}

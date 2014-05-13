@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*::::::::::::::::::::::::::::::::::::::::::::::::
+::												::
+::				   STYLESHEET BY				::
+::			PROYECTODW CREATIVO SA DE CV		::
+::			     www.proyectodw.com				::
+::												::
+::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+@import url("reset.css");
+@font-face {
+    font-family: 'CGR';
+    src: url('../fonts/cgothic.eot');
+    src: url('../fonts/cgothic.eot') format('embedded-opentype'),
+         url('../fonts/cgothic.woff') format('woff'),
+         url('../fonts/cgothic.ttf') format('truetype'),
+         url('../fonts/cgothic.svg#CenturyGothicRegular') format('svg');
+}
+
+body{
+	background:rgb(0,0,0) url(../images/home/bkg.jpg) no-repeat top right;
+	background-size:150% 100%;
+	text-align:center;
+	font-family: 'CGR', 'Century Gothic';
+	font-size:12px;
+}
+
+#Logo{
+	background:url(../images/home/CaribeMexicano.jpg) no-repeat;
+	width:166px;
+	height:73px;
+	display:block;
+	margin:0 auto 25px auto;
+	text-indent:-9999px;
+}
+
+h1{
+	color:rgb(0,167,159);
+	font-size:24px;
+	font-weight:normal;
+	line-height:28px;
+	text-shadow:0 5px 5px rgb(0,0,0);
+}
+	h1 strong{
+		font-weight:normal;
+		font-size:36px;
+	}
+h2{
+	color:rgb(255,255,255);
+	font-weight:normal;
+	font-size:14px;
+	text-shadow:0 2px 2px rgb(0,0,0);
+}
+#Btns{
+	background:url(../images/home/bkg-line.png) no-repeat center;
+	background-size:100%;
+	width:100%;
+	height:200px;
+	margin:10% 0 0 0;
+}
+	.Btns{
+		display:block;
+		background:rgb(255,255,255);
+		width:auto;
+		color:rgb(0,167,159);
+		padding:3px 10px;
+	}
+	#DestinosBtn{
+		background:url(../images/home/btn-Destinos.png) no-repeat;
+		background-size:100%;
+		width:40%;
+		height:25%;
+		position:absolute;
+		z-index:99;
+		left:25px;
+		top:282px;
+	}
+		#DestinosP{
+			position:absolute;
+			top:373px;
+			left:101px;
+			padding-left:20px;
+			z-index:90;
+		}
+	#ProyeccionesBtn{
+		background:url(../images/home/btn-Proyecciones.png) no-repeat;
+		background-size:100%;
+		width:40%;
+		height:25%;
+		position:absolute;
+		z-index:98;
+		right:25px;
+		top:266px;
+	}
+		#ProyeccionesP{
+			position:absolute;
+			top:271px;
+			right:94px;
+			padding-right:20px;
+			z-index:90;
+		}

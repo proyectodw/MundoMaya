@@ -1,0 +1,109 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::
+::												::
+::				   STYLESHEET BY				::
+::			PROYECTODW CREATIVO SA DE CV		::
+::			     www.proyectodw.com				::
+::												::
+::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+@font-face {
+    font-family: 'CGR';
+    src: url('../fonts/cgothic.eot');
+    src: url('../fonts/cgothic.eot') format('embedded-opentype'),
+         url('../fonts/cgothic.woff') format('woff'),
+         url('../fonts/cgothic.ttf') format('truetype'),
+         url('../fonts/cgothic.svg#CenturyGothicRegular') format('svg');
+}
+
+body{
+	font-family:'Century Gothic', 'CGR';
+	font-size:14px;
+}
+.DestinoTitle h1{
+	color:rgb(255,255,255);
+	font-weight:normal;
+	text-align:center;
+	font-size:40px;
+	line-height:38px;
+}
+.DestinoTitle h2, .DestinoTitle a{
+	color:rgb(104,72,42);
+	text-align:center;
+}
+	#Cancun .DestinoTitle h2, #Cancun .DestinoTitle a{
+		color:rgb(159,253,213);	
+		font-size:18px;
+	}
+	#Cozumel .DestinoTitle h1{
+		text-align:left;
+		font-size:34px;
+		line-height:30px;
+	}
+	#Cozumel .DestinoTitle h2, #Cozumel .DestinoTitle a{
+		text-align:left;
+		color:rgb(233,165,78);
+		font-size:11px;
+	}
+	#Holbox .DestinoTitle h2, #Holbox .DestinoTitle a{
+		text-align:center;
+		color:rgb(217,38,105);
+		font-size:13px;
+	}
+	#IslaMujeres h1{text-align:left;}
+	#IslaMujeres .DestinoTitle h2, #IslaMujeres .DestinoTitle a{
+		text-align:left;
+		color:rgb(212,114,47);
+		font-size:13px;
+		text-shadow:1px 1px 2px rgb(0,0,0);
+	}
+	#PlayaCarmen h1{
+		text-align:right;
+		text-shadow:1px 1px 2px rgb(0,0,0);
+	}
+	#PlayaCarmen .DestinoTitle h2, #PlayaCarmen .DestinoTitle a{
+		text-align:right;
+		color:rgb(198,55,105);
+		font-size:13px;
+	}
+	#Tulum h1{
+		text-shadow:1px 1px 2px rgb(0,0,0);
+		font-size:50px;
+		line-height:50px;
+	}
+	#Tulum .DestinoTitle h2, #Tulum .DestinoTitle a{
+		color:rgb(94,185,210);
+		font-size:13px;
+	}
+	#Bacalar .DestinoTitle h2, #Bacalar .DestinoTitle a{
+		color:rgb(225,189,87);
+		font-size:13px;
+	}
+	#Mahahual h1{
+		text-shadow:1px 1px 2px rgb(0,0,0);
+		font-size:40px;
+		line-height:40px;
+	}
+	#Mahahual .DestinoTitle h2, #Mahahual .DestinoTitle a{
+		color:rgb(255,255,255);
+		font-size:13px;
+		text-shadow:1px 1px 2px rgb(0,0,0);
+	}
+	#CarrilloPuerto .DestinoTitle h2, #CarrilloPuerto .DestinoTitle a{
+		color:rgb(233,165,78);
+		font-size:13px;
+	}
+#Content{
+	text-align:center;
+	color:rgb(255,255,255);
+}
+	#Content p{
+		text-align:justify;
+		font-size:16px;
+		margin:15px 0;
+	}
+
+footer{
+	color:rgb(247,130,34);	
+	font-size:12px;
+	text-align:center;
+}
